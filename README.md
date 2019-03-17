@@ -1,4 +1,4 @@
-# Blue-Note-Projet-Web
+# Blue-Note-ProjetWeb
 Création d'un site internet dans le cadre du **module M1205**. *(Note obtenue : 17,5/20)*
 
 Site accessible à l'adresse : http://bdjadam.fr/

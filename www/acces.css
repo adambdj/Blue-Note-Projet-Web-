@@ -1,0 +1,149 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-image: url("img/wallpaper.jpg");
+  padding-bottom: 5em;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+.barremenu {
+  position: relative;
+  background-color: #110390;
+  border-radius: 10px 10px 35px 35px;
+  height: 60px;
+  width: 700px;
+  padding: 0px 100px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.menupart1 a {
+  font-size: 18px;
+  margin-right: 50px;
+  color: #e7dac5;
+  display: inline-block;
+  text-decoration: none;
+  padding-top: 1em;
+}
+
+.menupart3 {}
+
+.menupart3 a {
+  font-size: 18px;
+  margin-left: 50px;
+  color: #e7dac5;
+  display: inline-block;
+  text-decoration: none;
+  padding-top: 1em;
+}
+
+.menupart2 {
+  border-radius: 10px 40px;
+  background-color: #e7dac5;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 10px;
+  width: 200px;
+  height: 65px;
+}
+
+.menupart2 img {
+  width: 72px;
+  margin: auto;
+  display: flex;
+  margin-top: 5px;
+}
+
+.contaignerintro {
+  padding-top: 5%;
+  padding-left: 15%;
+  color: white;
+}
+
+.horaire {
+  color: white;
+}
+
+.contaignerintro span {
+  text-decoration: underline;
+  font-size: xx-large;
+  display: block;
+  margin-top: 25px;
+}
+
+.carte {
+  padding-left: 22%;
+  padding-top: 3%;
+}
+
+.listes {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 220px;
+}
+
+.en-commun {
+  text-align: justify;
+  width: 30%;
+}
+
+.en-commun strong {
+  font-size: 18px;
+}
+
+.transports li p {
+  display: none;
+}
+
+.transports li:hover p {
+  display: block;
+}
+
+.couleur {
+  color: aliceblue;
+}
+
+footer {
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-left: 0%;
+}
+
+footer div {
+  width: 1300px;
+  display: flex;
+  height: 25px;
+  justify-content: space-around;
+  padding-top: 5px;
+  border: 2px double #e7dac5;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+footer span {
+  display: inline-block;
+}
+
+#musique {
+  height: 1.5em;
+}

@@ -1,0 +1,155 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background: linear-gradient(to left, #43c6ac, #191654);
+  color: white;
+  }
+  
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+  }
+  
+.barremenu {
+    position: relative;
+    background-color: #110390;
+    border-radius: 10px 10px 35px 35px;
+    height: 60px;
+    width: 700px;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+  
+.menupart1 a {
+    font-size: 18px;
+    margin-right: 50px;
+    color: #e7dac5;
+    display: inline-block;
+    text-decoration: none;
+    padding-top: 1em;
+  }
+  
+.menupart3 {
+
+}
+  
+.menupart3 a {
+    font-size: 18px;
+    margin-left: 50px;
+    color: #e7dac5;
+    display: inline-block;
+    text-decoration: none;
+    padding-top: 1em;
+  }
+  
+.menupart2 {
+    border-radius: 10px 40px;
+    background-color: #e7dac5;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 10px;
+    width: 200px;
+    height: 65px;
+  }
+  
+.menupart2 img {
+    width: 72px;
+    margin: auto;
+    display: flex;
+    margin-top: 5px;
+  }
+  
+.contaignerartiste {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+  }
+  
+.textbase{
+  margin-bottom: 3em;
+}
+
+.imagegroupe {
+display:inline-block;
+right: 0;
+}
+
+.imagegroupe:hover .textegroupe {
+display:block;
+position:bot;
+font-size:16px;
+margin-top:4px;
+}
+
+.textegroupe {
+display: none;
+color: black;
+}
+
+.texte_artiste {
+margin-left:4em;
+margin-right:4em;
+width:86em;
+display: block;
+border: solid 4px #204875;
+background-color: #E5D9C5;
+color : black;
+}
+
+.titremusique {
+font-style: italic;
+text-decoration: underline;
+}
+
+#titre {
+margin-left:4em;
+margin-right:4em;
+width:86em;
+display: block;
+text-decoration: underline;
+color: white;
+}
+
+footer {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: 0%;
+  }
+  
+footer div {
+    width: 1300px;
+    display: flex;
+    height: 25px;
+    justify-content: space-around;
+    padding-top: 5px;
+    border: 2px double #e7dac5;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+footer span {
+    display: inline-block;
+  }
+  
+#musique {
+    height: 1.5em;
+  }

@@ -1,0 +1,135 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-image: url("img/wallpaper.jpg");
+  padding-bottom: 5em;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+.barremenu {
+  position: relative;
+  background-color: #110390;
+  /*lightseagreen*/
+  border-radius: 10px 10px 35px 35px;
+  height: 60px;
+  width: 700px;
+  padding: 0px 100px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  z-index: 10;
+}
+
+.barremenu * {
+  z-index: 10;
+}
+
+.menupart1 a {
+  font-size: 18px;
+  margin-right: 50px;
+  color: #E7DAC5;
+  display: inline-block;
+  text-decoration: none;
+}
+
+
+.menupart3 a {
+  font-size: 18px;
+  margin-left: 50px;
+  color: #E7DAC5;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.menupart2 {
+  border-radius: 10px 40px;
+  background-color: #E7DAC5;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 10px;
+  width: 200px;
+  height: 65px;
+}
+
+.menupart2 img {
+  width: 72px;
+  margin: auto;
+  display: flex;
+  margin-top: 5px;
+}
+
+#debut {
+  margin-left: 10em;
+  padding: 100px;
+  color: white;
+  padding-bottom: 0px;
+}
+
+input[type="number"] {
+  width: 4em;
+}
+
+form {
+  display: none;
+}
+
+.formulaireopen {
+  display: block !important;
+}
+
+.bouton {
+  cursor: pointer;
+  border: 1px solid black;
+  width: 15em;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+footer {
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-left: 0%;
+}
+
+footer div {
+  width: 1300px;
+  display: flex;
+  height: 25px;
+  justify-content: space-around;
+  padding-top: 5px;
+  border: 2px double #e7dac5;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+footer span {
+  display: inline-block;
+}
+
+#musique {
+  height: 1.5em;
+}
+
+.obligatoire {
+  color:black;
+  background-color : white;
+  }
